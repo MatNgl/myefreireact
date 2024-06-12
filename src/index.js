@@ -15,7 +15,6 @@ const router = createBrowserRouter([
     path: "/",
     element:(
       <div>
-        <h1>Sur quel portrail voulez-vous rentrer </h1>
         <Navbar />
       </div>
     )
@@ -32,7 +31,7 @@ const router = createBrowserRouter([
   {
     path: "/eleve",
     element: <div>Je suis la page des eleves</div>,
-  },
+  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
