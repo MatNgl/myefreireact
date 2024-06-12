@@ -8,10 +8,6 @@ const getClasseLibelle = (id_classe) => {
 };
 
 const EleveCarte = ({ eleve }) => {
-    if (!eleve) {
-        return <div>Élève non disponible</div>;
-    }
-
     return (
         <div className="eleve-carte">
             <img src={eleve.image} alt={`${eleve.prenom} ${eleve.nom}`} />
