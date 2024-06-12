@@ -3,7 +3,7 @@ import './EleveCarte.css';
 import { classes } from '../../classe/classes';
 
 const getClasseLibelle = (id_classe) => {
-    const classe = classes.find(classe => classe.id === id_classe);
+    const classe = classes.find(classe => classe.id_classe === id_classe);
     return classe ? classe.libelle : 'Classe inconnue';
 };
 

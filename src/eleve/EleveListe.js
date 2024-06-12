@@ -19,7 +19,7 @@ const EleveListe = ({ eleves }) => {
 
     // Fonction pour obtenir le libellé de la classe
     const getClasseLibelle = (id_classe) => {
-        const classe = classes.find(classe => classe.id === id_classe);
+        const classe = classes.find(classe => classe.id_classe === id_classe);
         return classe ? classe.libelle : 'Classe inconnue';
     };
 

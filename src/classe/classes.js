@@ -1,10 +1,10 @@
 export const classes = [
     {
-        id:1,
+        id_classe:1,
         libelle: "B3 - DEV",
     },
     {
-        id:2,
+        id_classe:2,
         libelle: "M1 - COMMUNICATION",
     }
 ];
