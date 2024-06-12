@@ -1,4 +1,4 @@
-const classes = [
+export const classes = [
     {
         id:1,
         libelle: "B3 - DEV",

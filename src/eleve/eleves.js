@@ -1,6 +1,4 @@
-
-
-const eleves = [
+export const eleves = [
     {
         id:1,
         nom: "Huchard",
