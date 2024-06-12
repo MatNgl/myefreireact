@@ -1,0 +1,11 @@
+/* EleveListe.css */
+.eleve-liste {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; 
+    text-align: center;
+}
+
+.eleve-classe {
+    margin-bottom: 32px; 
+}

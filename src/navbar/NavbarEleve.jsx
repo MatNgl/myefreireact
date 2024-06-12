@@ -8,7 +8,7 @@ const NavbarEleve = () => {
                     <li><a href="/">Accueil</a></li>
                     <li><a href="/eleve/cours">Cours</a></li>
                     <li><a href="/eleve/notes">Notes</a></li>
-                    <li><a href="/eleve/notes">Classe</a></li>
+                    <li><a href="/eleve/classe">Classe</a></li>
                 </ul>
             </nav>
         </div>
