@@ -7,12 +7,11 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import NavbarProf from './navbar/NavbarProf';
 import Navbar from './navbar/Navbar';
-import NavbarEleve from './navbar/NavbarEleve';
+import routesProf from './routes/routesProf';
+import routesEleve from './routes/routesEleve';
 
-
-const router = createBrowserRouter([
+const rootRoutes = [
   {
     path: "/",
     element: (
@@ -21,24 +20,12 @@ const router = createBrowserRouter([
       </div>
     )
   },
-  {
-    path: "/prof",
-    element: (
-      <div>
-        <NavbarProf />
-        <div>Je suis la page des profs</div>
-      </div>
-    )
-  },
-  {
-    path: "/eleve",
-    element: (
-      <div>
-        <NavbarEleve />
-        <div>Je suis la page des élèves</div>
-      </div>
-    )
-  },
+];
+
+const router = createBrowserRouter([
+  ...rootRoutes,
+  ...routesProf,
+  ...routesEleve
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

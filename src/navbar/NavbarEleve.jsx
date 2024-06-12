@@ -5,9 +5,9 @@ const NavbarEleve = () => {
     
     <nav>
       <ul>
-        <li><a href="/prof/Cours">Cours</a></li>
-        <li><a href="/prof/Notes">Notes</a></li>
-        <li><a href="/prof/Notes">Classe</a></li>
+        <li><a href="/eleve/cours">Cours</a></li>
+        <li><a href="/eleve/notes">Notes</a></li>
+        <li><a href="/eleve/notes">Classe</a></li>
       </ul>
     </nav>
   );
