@@ -1,6 +1,7 @@
-// routesProf.js
+// src/routes/routesProf.js
 import React from 'react';
 import NavbarProf from '../navbar/NavbarProf';
+import ListeCoursProf from '../prof/listecoursprof/ListeCoursProf';
 
 const routesProf = [
   {
@@ -17,7 +18,7 @@ const routesProf = [
     element: (
       <div>
         <NavbarProf />
-        <div>Je suis la page des cours pour les profs</div>
+        <ListeCoursProf />
       </div>
     )
   }
