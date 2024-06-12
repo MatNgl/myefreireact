@@ -41,4 +41,11 @@ export const eleves = [
         id_classe:2,
         image: 'https://randomuser.me/api/portraits/men/32.jpg'
     },
+    {
+        id:7,
+        nom:"test",
+        prenom:"test",
+        id_classe:2,
+        image: 'https://randomuser.me/api/portraits/men/40.jpg'
+    },
 ]
