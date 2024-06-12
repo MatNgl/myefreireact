@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import EleveListe from './eleve/EleveListe';
-import eleves from './eleve/eleves';
+import { eleves } from './eleve/eleves';
 
 function App() {
   return (
