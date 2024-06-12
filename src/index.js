@@ -9,11 +9,13 @@ import {
 } from "react-router-dom";
 import NavbarProf from './navbar/NavbarProf';
 import Navbar from './navbar/Navbar';
+import NavbarEleve from './navbar/NavbarEleve';
+
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element:(
+    element: (
       <div>
         <h1>Sur quel portrail voulez-vous rentrer </h1>
         <Navbar />
@@ -31,7 +33,12 @@ const router = createBrowserRouter([
   },
   {
     path: "/eleve",
-    element: <div>Je suis la page des eleves</div>,
+    element: (
+      <div>
+        <NavbarEleve />
+        <div>Je suis la page des élèves</div>
+      </div>
+    )
   },
 ]);
 
