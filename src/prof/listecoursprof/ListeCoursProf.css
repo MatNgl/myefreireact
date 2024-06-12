@@ -1,0 +1,27 @@
+/* src/prof/listecoursprof/ListeCoursProf.css */
+.cours {
+    padding: 20px;
+}
+
+.card-cours {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 200px;
+}
+
+.card-titre {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card-body {
+    font-size: 1em;
+}
