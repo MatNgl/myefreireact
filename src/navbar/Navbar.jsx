@@ -7,8 +7,8 @@ const Navbar = () => {
         <h1>Sur quel portail voulez-vous rentrer ? </h1>
         <nav>
         <ul>
-            <a href="/eleve/"><button>Eleve</button></a>
-            <a href="/prof/"><button>Prof</button ></a>
+            <a href="/eleve/cours"><button>Eleve</button></a>
+            <a href="/prof/cours"><button>Prof</button ></a>
         </ul>
         </nav>
     </div>
