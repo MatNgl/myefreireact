@@ -10,9 +10,9 @@ const getClasseLibelle = (id_classe) => {
 };
 
 const getProfNom = (id_prof) => {
-    const professeur = profs.find(prof => prof.id === id_prof);
-    return professeur ? professeur.nom : 'Professeur inconnu';
-  };
+    const professeur = profs.find(prof => prof.id_prof === id_prof);
+    return professeur ? `${professeur.prenom} ${professeur.nom}` : 'Professeur inconnu';
+};
   
 
 const EleveCoursCarte = ({ id_classe }) => {
