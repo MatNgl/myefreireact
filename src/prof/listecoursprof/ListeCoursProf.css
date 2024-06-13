@@ -1,12 +1,13 @@
-/* src/prof/listecoursprof/ListeCoursProf.css */
 .cours {
     padding: 20px;
+    text-align:center;
 }
 
 .card-cours {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    text-align:center;
 }
 
 .card {
@@ -20,8 +21,17 @@
 .card-titre {
     font-size: 1.5em;
     margin-bottom: 10px;
+    text-align:center;
 }
 
 .card-body {
     font-size: 1em;
 }
+
+.card button{
+    width: 130px;
+    height: 30px;
+    margin:1px;
+    font-size: 15px;
+}
+

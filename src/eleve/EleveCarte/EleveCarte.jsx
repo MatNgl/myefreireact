@@ -1,4 +1,3 @@
-// EleveCarte.jsx
 import './EleveCarte.css';
 import { classes } from '../../classe/classes';
 
