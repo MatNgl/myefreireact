@@ -36,8 +36,8 @@ export const eleves = [
     },
     {
         id:6,
-        nom:"Macron",
-        prenom:"Revolution",
+        nom:"Moulin",
+        prenom:"Jean",
         id_classe:2,
         image:'https://randomuser.me/api/portraits/men/32.jpg'
     },
