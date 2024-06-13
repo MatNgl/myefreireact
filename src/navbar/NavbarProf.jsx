@@ -7,7 +7,6 @@ const NavbarProf = () => {
         <ul>
           <li><a href="/">Accueil</a></li>
           <li><a href="/prof/cours">Cours</a></li>
-          <li><a href="/prof/notes">Notes</a></li>
           <li><a href="/prof/classe">Classes </a></li>
         </ul>
       </nav>
