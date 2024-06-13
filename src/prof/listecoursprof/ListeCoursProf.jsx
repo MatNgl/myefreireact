@@ -1,4 +1,3 @@
-// src/prof/listecoursprof/ListeCoursProf.jsx
 import React from 'react';
 import { cours } from '../../cours/cours';
 import { classes } from '../../classe/classes';

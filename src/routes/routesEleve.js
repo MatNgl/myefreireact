@@ -1,7 +1,8 @@
 import React from 'react';
 import NavbarEleve from '../navbar/NavbarEleve';
 import EleveCoursCarte from '../eleve/listecourseleve/EleveCoursCarte';
-
+import EleveNotesCarte from '../eleve/fichenoteeleve/EleveNoteCarte';
+import '../App.css';
 
 const routesEleve = [
   {
@@ -18,8 +19,7 @@ const routesEleve = [
     element: (
       <div>
         <NavbarEleve />
-        <div>Je suis la page des cours pour les élèves</div>
-        {/* Assurez-vous de passer l'ID de la classe à EleveCoursCarte */}
+        <h1 className="center-text">COURS</h1>
         <EleveCoursCarte id_classe={1} />
       </div>
     )
@@ -29,7 +29,8 @@ const routesEleve = [
     element: (
       <div>
         <NavbarEleve />
-        <div>Je suis la page des notes pour les élèves</div>
+        <h1 className="center-text">NOTES</h1>
+        <EleveNotesCarte id_classe={1} id_eleve={1} />
       </div>
     )
   }
