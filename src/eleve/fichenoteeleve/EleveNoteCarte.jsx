@@ -17,11 +17,13 @@ const GetNomPrenomProf = (id_prof) => {
 
 const GetNotes = (id_cours, id_eleve) => {
     const note = notes.find(note => note.id_cours === id_cours && note.id_eleve === id_eleve);
+    console.log(`Note pour cours ${id_cours}, élève ${id_eleve}:`, note);
     return note ? note.point : 'Pas de note';
 };
 
 const GetCoef = (id_cours, id_eleve) => {
     const note = notes.find(note => note.id_cours === id_cours && note.id_eleve === id_eleve);
+    console.log(`Coef pour cours ${id_cours}, élève ${id_eleve}:`, note);
     return note ? note.coef : 1;
 };
 
@@ -51,11 +53,11 @@ const EleveNotesCarte = ({ id_classe, id_eleve }) => {
                 </thead>
                 <tbody>
                     {coursDansClasse.map(cour => (
-                        <tr key={cour.id}>
+                        <tr key={cour.id_cours}>
                             <td>{cour.libelle}</td>
                             <td>{GetNomPrenomProf(cour.id_prof)}</td>
-                            <td>{GetNotes(cour.id, id_eleve)}</td>
-                            <td>{GetCoef(cour.id, id_eleve)}</td>
+                            <td>{GetNotes(cour.id_cours, id_eleve)}</td>
+                            <td>{GetCoef(cour.id_cours, id_eleve)}</td>
                         </tr>
                     ))}
                 </tbody>
