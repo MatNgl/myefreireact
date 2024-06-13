@@ -1,0 +1,27 @@
+.eleve-cours-carte {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.eleve-cours-carte h2 {
+    margin-bottom: 20px;
+}
+
+.eleve-cours-carte table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.eleve-cours-carte th, .eleve-cours-carte td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.eleve-cours-carte th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}

@@ -1,8 +1,7 @@
-// routesEleve.js
 import React from 'react';
 import NavbarEleve from '../navbar/NavbarEleve';
-import EleveListe from '../eleve/EleveListe'; // Chemin correct vers EleveListe
-import { eleves } from '../eleve/eleves'; // Chemin correct vers eleves
+import EleveCoursCarte from '../eleve/listecourseleve/EleveCoursCarte';
+
 
 const routesEleve = [
   {
@@ -20,6 +19,8 @@ const routesEleve = [
       <div>
         <NavbarEleve />
         <div>Je suis la page des cours pour les élèves</div>
+        {/* Assurez-vous de passer l'ID de la classe à EleveCoursCarte */}
+        <EleveCoursCarte id_classe={1} />
       </div>
     )
   },
@@ -29,16 +30,6 @@ const routesEleve = [
       <div>
         <NavbarEleve />
         <div>Je suis la page des notes pour les élèves</div>
-      </div>
-    )
-  },
-  {
-    path: "/eleve/classe",
-    element: (
-      <div>
-        <NavbarEleve />
-        <div>Je suis la page de la classe de l'élève</div>
-        <EleveListe eleves={eleves} /> {/* Utiliser EleveListe ici */}
       </div>
     )
   }
